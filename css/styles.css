@@ -121,7 +121,7 @@ p {
   margin: 0 auto;
   background-color: #2e2f42;
   background-image:
-    linear-gradient(#2e2f42b2, #2e2f42b2), url(/images/people-office\ 1.jpg);
+    linear-gradient(#2e2f42b2, #2e2f42b2), url(/images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -272,7 +272,8 @@ p {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-social-media-list-item:hover {
+.team-social-media-list-item:hover,
+.team-social-media-list-item:focus {
   background-color: #31d0aa;
 }
 .team-social-media-list-item .icon {
@@ -392,7 +393,8 @@ p {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-media-list-item:hover {
+.footer-social-media-list-item:hover,
+.footer-social-media-list-item:focus {
   background-color: #31d0aa;
 }
 .footer-social-media-list-item .icon {
